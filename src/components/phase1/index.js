@@ -1,5 +1,4 @@
 import style from "./index.module.scss";
-import html from "./html.js";
 import store from "../../database";
 
 export default function Phase1() {
@@ -23,14 +22,14 @@ export default function Phase1() {
     htmlElement.click();
   }
 
-  function potentiallyFormatted() {
+  /*function potentiallyFormatted() {
     const htmlElement = document.createElement("a");
     const file = new Blob([html], {type : 'application/html'});
     htmlElement.href = URL.createObjectURL(file);
     htmlElement.download = "myFile.html";
     document.body.appendChild(htmlElement);
     htmlElement.click();
-  }
+  }*/
 
   function test() {
     const htmlElement = document.createElement("a");
@@ -46,7 +45,6 @@ export default function Phase1() {
       <h1>File Generator</h1>
       <button onClick={() => downloadTxtFile()}>Download a TXT file</button>  
       <button onClick={() => downloadHTMLFile()}>Download a HTML file</button>  
-      <button onClick={() => potentiallyFormatted()}>Export Html.js</button>  
       <button onClick={() => test()}>From Store</button>  
     </div>
   );

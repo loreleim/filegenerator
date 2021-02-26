@@ -27,6 +27,7 @@ export default function Phase1() {
   return (
     <div className={style.phaseParent}>
       <h1>File Generator</h1>
+      <button onClick={() => downloadTxtFile()}>Download a TXT file</button>  
       <button onClick={() => downloadHTMLFile()}>Download a HTML file</button>  
     </div>
   );

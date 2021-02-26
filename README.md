@@ -85,4 +85,9 @@ var newBlob = new Blob(array, options);
 {type : 'application/json'}
 ```
 
+## JSZip Research
+
+1. [Utilizing JSZIP with Angular + Blob API](https://www.youtube.com/watch?v=LKcF2K6kLU0&ab_channel=TheSwagCoder)
+1. [Debugging](https://stackoverflow.com/questions/43097159/import-jszip-in-angular-2-project)
+
 [Back to Top](#file-generator)

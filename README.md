@@ -13,7 +13,7 @@ a file generator for code snippets
 
 This web app takes advantage of the following React.js features
 
-- [ ] Nothing here yet ;)
+- [ ] [Blob API](https://developer.mozilla.org/en-US/docs/Web/API/Blob/Blob)
 
 ## Installing for Development
 
@@ -63,5 +63,13 @@ vw
 ## Component Structure
 
 As of Feb 2021. The following project utilizes a component structure over a page one. In this structure, performance.now() tests are intended to be easily ran on components instead of having to go to separate urls. This decreases resources needed instead of a browser-router dependency.
+
+## Blob Research
+
+Syntax for making a blob
+
+```
+var newBlob = new Blob(array, options);
+```
 
 [Back to Top](#file-generator)

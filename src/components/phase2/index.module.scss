@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+.phaseParent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $pink;
+  background-color: $purple;
+  flex-direction: column;
+  overflow: hidden;
+
+  & h1 {
+    letter-spacing: 2px;
+  }
+
+  & input {
+    width: 40vw;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 3rem;
+    outline: none;
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+
+    &:focus, :valid {
+      outline: none;
+      transition: 0.3s ease-in-out all;
+      border: 3px solid $pink;
+    }
+  }
+
+  & button {
+    margin-top: 1rem;
+    display: block;
+    padding: 0.75rem;
+  }
+}

@@ -9,6 +9,7 @@
   color: $pink;
   background-color: $purple;
   flex-direction: column;
+  overflow: hidden;
 
   & button {
     margin-top: 1rem;

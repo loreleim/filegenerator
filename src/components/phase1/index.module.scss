@@ -8,4 +8,11 @@
   justify-content: center;
   color: $pink;
   background-color: $purple;
+  flex-direction: column;
+
+  & button {
+    margin-top: 1rem;
+    display: block;
+    padding: 0.75rem;
+  }
 }

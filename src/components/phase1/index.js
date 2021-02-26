@@ -22,11 +22,22 @@ export default function Phase1() {
     htmlElement.click();
   }
 
+  function potentiallyFormatted() {
+    const htmlElement = document.createElement("a");
+    var aFileParts = ['<a href="https://google.com"><b id="b">hey!</b></a>'];
+    const file = new Blob(aFileParts, {type : 'text/plain', endings:'native'});
+    htmlElement.href = URL.createObjectURL(file);
+    htmlElement.download = "myFile.html";
+    document.body.appendChild(htmlElement);
+    htmlElement.click();
+  }
+
   return (
     <div className={style.phaseParent}>
       <h1>File Generator</h1>
       <button onClick={() => downloadTxtFile()}>Download a TXT file</button>  
       <button onClick={() => downloadHTMLFile()}>Download a HTML file</button>  
+      <button onClick={() => potentiallyFormatted()}>Testing a formatted version</button>  
     </div>
   );
 }

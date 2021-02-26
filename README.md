@@ -87,6 +87,8 @@ var newBlob = new Blob(array, options);
 
 ## How do you get line breaks and spaces?
 
+1. [This is promising](https://dev.to/blacksonic/the-secret-power-of-json-stringify-393b)
+
 Maybe something like this, needs to be tested.
 syntax is (array, null (for spaces), tabs desired)
 

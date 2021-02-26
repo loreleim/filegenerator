@@ -8,7 +8,14 @@ class Database {
       ]
     };
 
-    this.html = "<h1>Hey</h1>"
+    this.html = "<h1>Hey</h1>";
+
+    this.formatted = 
+`
+<!DOCTYPE html>
+  <html lang="en">
+</html>
+`
   }
 }
 

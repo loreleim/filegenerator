@@ -85,6 +85,22 @@ var newBlob = new Blob(array, options);
 {type : 'application/json'}
 ```
 
+## How do you get line breaks and spaces?
+
+Maybe something like this, needs to be tested.
+syntax is (array, null (for spaces), tabs desired)
+
+```
+console.log(JSON.stringify(secondItem, null, 8));
+```
+
+```
+const secondItem = {
+  title: 'Transformers',
+  year: 2007,
+}
+```
+
 ## JSZip Research
 
 1. [Utilizing JSZIP with Angular + Blob API](https://www.youtube.com/watch?v=LKcF2K6kLU0&ab_channel=TheSwagCoder)

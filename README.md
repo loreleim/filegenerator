@@ -1,3 +1,61 @@
 # File Generator
 
 a file generator for code snippets
+
+1. [Overview](#overview)
+1. [Installing for Development](#installing)
+1. [Running](#running)
+1. [Syntax Standards](#syntax-standards)
+
+## Overview
+
+This web app takes advantage of the following React.js features
+
+- [ ] Nothing here yet ;)
+
+## Installing for Development
+
+Make sure to create a new branch if developing. Do all atomic pushes in here.
+
+```
+github desktop > new branch > name it [firstname-develop]
+```
+
+Go to folder directory
+
+```
+cd filegenerator
+```
+
+& install all dependencies
+
+```
+npm install
+```
+
+## Running
+
+```
+npm run start
+```
+
+## Syntax Standards
+
+The following repo utilizes the following syntax standards in development. When implementing bugs or fixes, continue to use these standards. All scss, variables and functions are to follow [camelCase](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) standards. Example below.
+
+```
+.firstwordSecondword
+thisIsAFunction()
+```
+
+For css styling and measurements. Always & only use the following:
+
+```
+rem
+px
+vh
+vw
+%
+```
+
+[Back to Top](#file-generator)

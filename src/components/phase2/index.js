@@ -6,9 +6,9 @@ export default function Phase2() {
   //this is the themeName listener, that changes on input keyup
   const [themeName, setThemeName] = useState("default");
 
-  var indexphp =
-`
-<?php get_header(); ?>
+
+var indexphp =
+`<?php get_header(); ?>
 	
 <main class="${themeName}-content">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -16,8 +16,7 @@ export default function Phase2() {
     <?php endwhile; endif; ?>
 </main>
   
-<?php get_footer(); ?>
-`
+<?php get_footer(); ?>`
 
   function php() {
     const htmlElement = document.createElement("a");

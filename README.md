@@ -2,6 +2,8 @@
 
 a file generator for code snippets
 
+<img align="center" alt="redesign of thumbnails" width="500px" src="https://github.com/loreleim/filegenerator/blob/master/src/images/thumbnail.png?raw=true" />
+
 1. [Overview](#overview)
 1. [Installing for Development](#installing)
 1. [Running](#running)

@@ -58,4 +58,8 @@ vw
 %
 ```
 
+## Component Structure
+
+As of Feb 2021. The following project utilizes a component structure over a page one. In this structure, performance.now() tests are intended to be easily ran on components instead of having to go to separate urls. This decreases resources needed instead of a browser-router dependency.
+
 [Back to Top](#file-generator)

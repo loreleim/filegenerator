@@ -14,6 +14,7 @@ a file generator for code snippets
 This web app takes advantage of the following React.js features
 
 - [ ] [Blob API](https://developer.mozilla.org/en-US/docs/Web/API/Blob/Blob)
+- [ ] [JSZIP Maybe?](https://stackoverflow.com/questions/43097159 import-jszip-in-angular-2-project)
 
 ## Installing for Development
 

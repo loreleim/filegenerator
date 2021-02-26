@@ -1,9 +1,9 @@
-
+import Phase1 from "./components/phase1";
 
 function App() {
   return (
     <div>
-      <h1>File Generator</h1>
+      <Phase1/>
     </div>
   );
 }

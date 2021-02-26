@@ -72,4 +72,16 @@ Syntax for making a blob
 var newBlob = new Blob(array, options);
 ```
 
+Syntax example
+
+```
+var newBlob = new Blob(array, options);
+```
+
+[Available MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+
+```
+{type : 'application/json'}
+```
+
 [Back to Top](#file-generator)
